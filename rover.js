@@ -32,7 +32,6 @@ class Rover {
                res.push({completed: false})
             }
 
-
             if(type === "STATUS_CHECK"){
                 res.push({
                   completed: true,
